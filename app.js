@@ -50,7 +50,7 @@ var createNewTaskElement=function(taskString){
     deleteButton.appendChild(deleteButtonImg);
 
     //add classes
-    listItem.classList.add('list-element');
+    listItem.classList.add('unordered-list__item');
 
     //and appending.
     listItem.appendChild(checkBox);

@@ -7,11 +7,11 @@
   </head>
   <body class="page">
     <header class="header">
-      <img src="./eisenhower-matrix.jpg" class="header-img img" alt="eisenhower-matrix"><a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <img src="./eisenhower-matrix.jpg" class="header__img img" alt="eisenhower-matrix"><a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main">
       <section id="create-elements-section">
-        <label for="new-task" class="new-task-label label">Add Item</label>
+        <label for="new-task" class="new-task__label label">Add Item</label>
         <div class="task-wrapper">
           <input id="new-task" class="task input text-input" type="text">
           <button class="button">Add</button>
@@ -19,7 +19,7 @@
       </section>
       <h3 class="task-type">Todo</h3>
       <ul class="unordered-list" id="incomplete-tasks">
-        <li class="list-element">
+        <li class="unordered-list__item">
           <input type="checkbox" class="input checkbox-input"><label class="task label">Pay Bills</label>
           <input type="text" class="task input text-input">
           <button class="edit button">Edit</button>
@@ -27,7 +27,7 @@
             <img src="./remove.svg" class="img" alt="delete-button">
           </button>
         </li>
-        <li class="list-element" class="editMode">
+        <li class="unordered-list__item" class="editMode">
           <input type="checkbox" class="input checkbox-input"><label class="task label">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task input text-input">
           <button class="edit button">Save</button>
@@ -38,7 +38,7 @@
       </ul>
       <h3 class="task-type">Completed</h3>
       <ul class="unordered-list" id="completed-tasks">
-        <li class="list-element">
+        <li class="unordered-list__item">
           <input type="checkbox" class="input checkbox-input" checked><label class="task label">See the Doctor</label>
           <input type="text" class="task input text-input">
           <button class="edit button">Edit</button>
