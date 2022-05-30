@@ -35,14 +35,14 @@
   display: flex;
 }
 .unordered-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list-element, .task-type {
-  list-style:none;
+  list-style: none;
 }
 .input, .button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -135,14 +135,14 @@
 
 /* Edit Task */
 .unordered-list .list-element .text-input {
-  display:none
+  display: none
 }
 
 .unordered-list .edit-mode .text-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .unordered-list .edit-mode .label {
-  display:none;
+  display: none;
 }
