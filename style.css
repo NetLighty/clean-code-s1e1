@@ -38,10 +38,12 @@
   margin: 0;
   padding: 0px;
 }
-.list-element, .task-type {
+.list-element,
+.task-type {
   list-style: none;
 }
-.input, .button{
+.input,
+.button{
   outline: none;
 }
 .button {
